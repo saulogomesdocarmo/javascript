@@ -1,0 +1,24 @@
+// Algorítmo do Aplicativo de Cálculo de porcentagem
+
+Descobrir o cálculo de porcentagem :
+    - Multiplicar o valor cheio pela quantidade de numero de porcentagem e dividir por cem:
+        valor cheio (x)
+        qtd.porc (y)
+        / 100
+___________________________________________________________
+        (x * y) / 100 = porcentagem
+
+Declarar váriaveis:
+    - valor cheio (x)
+    - qtd.porc (y)
+    - porcentagem (valor)
+
+Declarar as entradas:
+    - valor cheio (x)
+    - qtd.porc (y)
+
+Processamento:
+    - cálculo (x * y) / 100 
+
+Saída: 
+    - valor

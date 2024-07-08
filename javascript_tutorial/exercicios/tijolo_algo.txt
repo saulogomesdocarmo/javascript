@@ -1,0 +1,15 @@
+// ALGORITMO PARA CALCULAR QUANTIDADE DE TIJOLOS POR M2:
+
+Descobrir o cálculo para saber a quantidade de tijolos por m2:
+        - 1m2 = 28 tijos
+        - m2 * 28 = qtd_de_tijolos por m2
+
+Declarar váriaveis:
+    m2 = metros quadrados
+    qtd_de_tijolos
+
+Processamento:
+    qtd_m2 * qtd_de_tijolos = resultado
+
+Saída:
+    resultado

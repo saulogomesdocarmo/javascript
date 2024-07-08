@@ -1,0 +1,35 @@
+// Algorítmo para descobrir o tamanho de uma área por m2 e quantos tijolos serão necessários para a construção
+
+Descobrir os cálculos que serão usados para resolução do problema:
+        Cálculo 1 - Descobrir o tamanho da área em m2:
+            - largura x comprimento = m2
+            - largura * comprimento = m2
+        
+        Cálculo 2 - Descobrir a quantidade de tijolos que serão usados:
+            - m2 x 28
+            - m2 * 28
+
+Declarar váriaveis:
+    - largura
+    - comprimento 
+    - m2
+    - qtd_de_tijolos
+
+Declarar as entradas:
+    - largura
+    - comprimento 
+   
+
+Processamento/Saída
+        Processamento 1 :
+            largura * comprimento = m2
+
+        Saída 1 :
+            m2
+        
+        Processamento 2 :
+            m2 * 28 = qtd_de_tijolos
+        
+        Saída 2 :
+            qtd_de_tijolos
+    

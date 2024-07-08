@@ -1,0 +1,24 @@
+// Algorítmo do Aplicativo de Cálculo de Média
+
+Descobrir o cáculo para se obter a média:
+    - Somar as duas notas e dividir o restultado por 2, dessa forma:
+        nota 1 (x)
+        nota 2 (y)
+    _______________________
+                (x + y) / 2 = média
+
+Declarar as váriaveis:
+    - Nome do Aluno
+    - Nota 1 (x)
+    - Nota 2 (y)
+    - Média  (media)
+
+Declarar as entradas :
+    - Nota 1 (x)
+    - Nota 2 (y)
+
+Processamento :
+    (x + y) / 2 
+
+Saída :
+    media

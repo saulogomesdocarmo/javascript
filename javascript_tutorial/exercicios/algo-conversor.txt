@@ -1,0 +1,25 @@
+// Algorítmo do Aplicativo de Conversão de MB(Megabytes), para GB(Gigabytes).
+
+Descobrir o cálculo para conversão:
+    Pegar um valor de Megabytes e dividir por 1.000(sistema decimal) ou 1024(sistema binário):
+        n_mb / 1024 = gb
+        n_mb / 1000 - gb
+___________________________________________________________
+        (n_mb / 1024) = gb
+        (n_mb / 1000) = gb
+
+
+Declarar váriaveis:
+    - Número de Megabytes n_mb
+    - Número de Gigabytes (valor_binário)
+    - Número de Gigabytes (valor_decimal)
+
+Declarar as entradas:
+    - Número de Megabytes
+
+Processamento:
+    - (n_mb / 1024 ) = gb (valor)
+    - (n_mb / 1000 ) = gb (valor)
+
+Saída
+    - valor

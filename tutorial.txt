@@ -127,7 +127,7 @@ Variáveis: nota1, nota2, media
 Entrada: nota1, nota2
 Processamento: media = (nota1 + nota 2) / 2
 Saída: media
- 
+___________________________________________________________________________________________________________
 Exemplo 2:
 Desenvolver um app modo console para cálculo de porcentagem:
 200 ------------- 100%
@@ -140,4 +140,45 @@ Entrada: x, y
 Processamento: valor = (x * y) / 100
 Saída: valor
 
+__________________________________________________________________________________________________________________
 
+
+Estruturas de Controle
+
+condicionais : 
+
+if if-else ()
+
+
+
+
+
+Exemplo de uso da estrutura else if 
+No exemplo cálculo da média, estabelecer as seguintes condições :
+
+1 - Se o aluno tiver média menor que 2 (REPROVADO)
+2 - Se a média do aluno estiver entre 2 e 5 (RECUPERAÇÃO)
+3 - Se a média for igual ou superior a 5 (APROVADO)
+
+Resumindo: 
+if(condição 1){
+      // condição 1 verdadeira
+} else if (condição 2) {
+      // condição 2 verdaderia
+} else if (condição 3) {
+      // condição 3 verdadeira
+} else {
+      // nenhuma das condições anteriores é verdadeira
+}
+
+OBS : O else não é obrigatório
+
+Exercicío 3: 
+
+No Brasil, o voto pode ser proibido, obrigarório ou facultativo, de acordo com os seguintes critérios: 
+
+ - idade menor que 16 (proibido votar)
+ - entre 18 e 70 (incluindo 18 e 70) ( voto obrigarório)
+ - idade 16, 70 ( voto opcional)
+
+Desenvolva um console no JS um app em função da idade para verifcar em função da idade a obirgação ou não de votar

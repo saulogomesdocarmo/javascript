@@ -209,3 +209,4 @@ ao resultado da face do dado associar usando o switch case a imagem da face do d
 
 Exemplo : 
 
+Qualquer condicionais

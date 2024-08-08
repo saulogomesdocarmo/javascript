@@ -182,3 +182,30 @@ No Brasil, o voto pode ser proibido, obrigarório ou facultativo, de acordo com 
  - idade 16, 70 ( voto opcional)
 
 Desenvolva um console no JS um app em função da idade para verifcar em função da idade a obirgação ou não de votar
+
+
+
+
+_______________________________________________________________________________________________________________________________
+
+Estrutura de controle condicional: switch-case.
+Sintaxe:
+variável (número inteiro ou letra)
+switch(variável)
+      case: 1
+            // código se o valor da variável for igual a 1
+            break
+      case: 2
+            // código se o valor da variavél for igual a 2
+            break
+      default:
+            // código caso valor diferente de 1 ou 2
+            break
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Exercicio 4: Desenvolva no console do JS um aplicativo que faça o sorteio de um jogo de dado,
+ao resultado da face do dado associar usando o switch case a imagem da face do dado correspondente 
+
+Exemplo : 
+

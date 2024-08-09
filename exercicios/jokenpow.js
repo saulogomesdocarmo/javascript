@@ -59,9 +59,25 @@ switch(computador){
         console.log(" O computador escolheu TESOURA")
         break
 }
-if (jogador == 1 && computador == 1 ){
+console.log("")
+if (jogador == 1 && computador == 1){
     console.log("EMPATE")
-}else{
-    console.log("o jogo acabou")
-}
 
+} else if ( jogador == 2 && computador == 2){
+    console.log("EMPATE")
+
+} else if (jogador == 3 && computador == 3){
+    console.log("EMPATE")
+
+} else if (jogador == 1 && computador == 2){
+    console.log("O Computador Venceu!")
+
+} else if ( computador == 1 && jogador == 2){
+    console.log("O Jogador Venceu!")
+
+} else if (jogador == 2 && computador == 3){
+    console.log("O Computador Venceu!")
+
+} else if (computador == 2 && jogador == 3){
+    console.log("O Jogador Venceu!")
+}

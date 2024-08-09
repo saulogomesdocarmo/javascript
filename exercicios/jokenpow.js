@@ -7,7 +7,7 @@
 // entrada de dados
 const input = require("readline-sync")
 // variaveis
-let opcao
+let jogador,computador
 
 console.clear()
 console.log("  ____   ___   __  _    ___  ____    ____   ___   ____")  
@@ -24,31 +24,27 @@ console.log("1. Pedra")
 console.log("2. Papel")
 console.log("3. Tesoura")
 console.log("")
-opcao = Number(input.question("Digite uma opcao: "))
+jogador = Number(input.question("Digite uma opcao: "))
 computador = Math.floor(Math.random()* 3 + 1)
 
-switch(opcao){
+switch(jogador){
     case 1:
         console.log("Pedra")
         console.log("Jogador escolheu pedra")
         break
     case 2:
         console.log("Papel")
-        console.log("Voce escolheu papel")
+        console.log("Jogador escolheu papel")
         brake
     case 3:
         console.log("Tesoura")
-        console.log("Voce escolheu tesoura")
+        console.log("Jogador escolheu tesoura")
         break
     default:
         console.log("Opção inválida")
 }
 
-switch(computador){
-    case 1:
-        console.log("Pedra")
-        console.log(" O computador escolheu Pedra")
-}
+
 
 console.log(`O jogador escolheu a opção: ${opcao}`)
 console.log(`O computador escolheu a opção: ${opcao}`)

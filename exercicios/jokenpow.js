@@ -4,51 +4,64 @@
  */
 
 
-// entrada de dados
+
 const input = require("readline-sync")
-// variaveis
+
 let jogador,computador
 
 console.clear()
-console.log("  ____   ___   __  _    ___  ____    ____   ___   ____")  
-console.log(" |    | /   \\ |  |/ ]  /  _]|    \\ |   \\ /   \\ |    \\ ")
-console.log(" |__  ||     ||  ' /   /  [_ |  _   ||  o )     ||  _  | ")
-console.log(" __|  ||  O  ||    \\  |    _]|  |  ||   _/|  O  ||  |  | ")
-console.log("/  |  ||     ||     \\ |   [_ |  |  ||  |  |     ||  |  |")
-console.log("\\  `  ||     ||  .   |  |     ||  |  ||  |  |     ||  |  |")
-console.log("\\___  |\\___ /  |__|\\_|  |_____||__|__||__|  \\___/ |__|__|")
+// console.log("  ____   ___   __  _    ___  ____    ____   ___   ____")
+// console.log(" |    | /   \\ |  |/ ]  /  _]|    \\ |   \\ /   \\ |    \\ ")
+// console.log(" |__  ||     ||  ' /   /  [_ |  _   ||  o )     ||  _  | ")
+// console.log(" __|  ||  O  ||    \\  |    _]|  |  ||   _/|  O  ||  |  | ")
+// console.log("/  |  ||     ||     \\ |   [_ |  |  ||  |  |     ||  |  |")
+// console.log("\\  `  ||     ||  .   |  |     ||  |  ||  |  |     ||  |  |")
+// console.log("\\___  |\\___ /  |__|\\_|  |_____||__|__||__|  \\___/ |__|__|")
 
+console.log("Escolha uma opção: ")
 console.log("")
 
-console.log("1. Pedra")
-console.log("2. Papel")
-console.log("3. Tesoura")
-console.log("")
+console.log(" 1. Pedra")
+console.log(" 2. Papel")
+console.log(" 3. Tesoura")
+
 jogador = Number(input.question("Digite uma opcao: "))
-computador = Math.floor(Math.random()* 3 + 1)
 
-switch(jogador){
+switch (jogador) {
     case 1:
-        console.log("Pedra")
-        console.log("Jogador escolheu pedra")
+        console.clear()
+        console.log("O jogador escolheu PEDRA")
         break
     case 2:
-        console.log("Papel")
-        console.log("Jogador escolheu papel")
-        brake
-    case 3:
-        console.log("Tesoura")
-        console.log("Jogador escolheu tesoura")
+        console.clear()
+        console.log("O jogador escolheu PAPEL")
         break
-    default:
-        console.log("Opção inválida")
+    case 3:
+        console.clear()
+        console.log("O jogador escolheu TESOURA")
+        break
 }
 
+computador = Math.floor(Math.random() *3 )
+// console.log(`O computador escolheu: ${computador}`)
 
+switch(computador){
+    case 1:
+        
+        console.log("O computador escolheu PEDRA")
+        break
+    case 2:
+        
+        console.log("O computador escolheu PAPAEL")
+        break
+    case 3:
+        
+        console.log(" O computador escolheu TESOURA")
+        break
+}
+if (jogador == 1 && computador == 1 ){
+    console.log("EMPATE")
+}else{
+    console.log("o jogo acabou")
+}
 
-console.log(`O jogador escolheu a opção: ${opcao}`)
-console.log(`O computador escolheu a opção: ${opcao}`)
-
-// if(opcao == 1 && computador == 1){
-//     console.log("EMPATE")
-// }

@@ -3,8 +3,8 @@
  * @author Saulo Gomes do Carmo
  */
 
-const colors = require('@colors/colors')
-const input = require('readline-sync')
+const colors = require("colors")
+const input = require("readline-sync")
 
 let etanol,gasolina 
 

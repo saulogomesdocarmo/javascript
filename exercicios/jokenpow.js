@@ -7,16 +7,16 @@
 
 const input = require("readline-sync")
 
-let jogador,computador
+let jogador, computador
 
 console.clear()
-// console.log("  ____   ___   __  _    ___  ____    ____   ___   ____")
-// console.log(" |    | /   \\ |  |/ ]  /  _]|    \\ |   \\ /   \\ |    \\ ")
-// console.log(" |__  ||     ||  ' /   /  [_ |  _   ||  o )     ||  _  | ")
-// console.log(" __|  ||  O  ||    \\  |    _]|  |  ||   _/|  O  ||  |  | ")
-// console.log("/  |  ||     ||     \\ |   [_ |  |  ||  |  |     ||  |  |")
-// console.log("\\  `  ||     ||  .   |  |     ||  |  ||  |  |     ||  |  |")
-// console.log("\\___  |\\___ /  |__|\\_|  |_____||__|__||__|  \\___/ |__|__|")
+console.log("  ____   ___   __  _    ___  ____    ____   ___   ____")
+console.log(" |     | /   \\ |  |/ ]  /  _]|    \\ |   \\ /   \\ |    \\ ")
+console.log(" |__   ||     ||  ' /   /  [_ |  _   ||  o )     ||  _  | ")
+console.log(" __|   ||  O  ||    \\  |    _]|  |  ||   _/|  O  ||  |  | ")
+console.log("/  |   ||     ||     \\ |   [_ |  |  ||  |  |     ||  |  |")
+console.log("\\  `  ||     ||  .   |  |     ||  |  ||  |  |     ||  |  |")
+console.log("\\___  |\\___ /  |__|\\_|  |_____||__|__||__|  \\___/ |__|__|")
 
 console.log("Escolha uma opção: ")
 console.log("")
@@ -42,42 +42,50 @@ switch (jogador) {
         break
 }
 
-computador = Math.floor(Math.random() *3 )
+computador = Math.floor(Math.random() * 3 + 1)
 // console.log(`O computador escolheu: ${computador}`)
 
-switch(computador){
+switch (computador) {
     case 1:
-        
+
         console.log("O computador escolheu PEDRA")
         break
     case 2:
-        
+
         console.log("O computador escolheu PAPAEL")
         break
     case 3:
-        
+
         console.log(" O computador escolheu TESOURA")
         break
 }
 console.log("")
-if (jogador == 1 && computador == 1){
+if (jogador === 1 && computador === 1) {
     console.log("EMPATE")
 
-} else if ( jogador == 2 && computador == 2){
+} else if (jogador == 2 && computador == 2) {
     console.log("EMPATE")
 
-} else if (jogador == 3 && computador == 3){
+} else if (jogador === 3 && computador === 3) {
     console.log("EMPATE")
 
-} else if (jogador == 1 && computador == 2){
+} else if (jogador === 1 && computador === 2) {
     console.log("O Computador Venceu!")
 
-} else if ( computador == 1 && jogador == 2){
+} else if (computador === 1 && jogador === 2) {
     console.log("O Jogador Venceu!")
 
-} else if (jogador == 2 && computador == 3){
+} else if (jogador === 2 && computador === 3) {
     console.log("O Computador Venceu!")
 
-} else if (computador == 2 && jogador == 3){
+} else if (computador === 2 && jogador === 3) {
     console.log("O Jogador Venceu!")
+
+} else if (jogador === 1 && computador === 3) {
+    console.log("O Jogador Venceu!")
+
+} else if (computador === 1 && jogador == 3) {
+    console.log("Jogador Perdeu")
 }
+
+

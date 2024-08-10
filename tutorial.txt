@@ -209,4 +209,16 @@ ao resultado da face do dado associar usando o switch case a imagem da face do d
 
 Exemplo : 
 
-Qualquer condicionais
+Estruturas de controle - laços de repetições: 
+
+- for 
+- while 
+- do-while
+
+FOR - estrutura de repetições finitas(determinadas)
+
+for (let i=1; condicação; incremento/decremento) {
+      //início ; repetir enquanto condição verdadeira; i++(adiciona um número) ou i-- (subraí um número)
+}
+
+// obs: a variavél declarada dentro da estrutura deve ser um número inteiro

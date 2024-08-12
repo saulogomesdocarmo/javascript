@@ -4,6 +4,7 @@
  */
 
 const input = require("readline-sync")
+const color = require("colors")
 let valor
 
 console.clear()

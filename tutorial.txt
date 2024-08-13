@@ -248,3 +248,28 @@ EXERCICIO 6
 
 - Desenvolver um aplicativo para calcular a tabuada, semelhante ao exemplo de aula, usando a estrutura
 while, no lugar do for
+
+__________________________________________________________________________________________________________________
+
+Funções : 
+
+- Uma função em JavaScript é um bloco de código que realiza uma tarefa específca ou calcula um valor.
+- Você pode pensar nela como uma "receita" que escreve uma vez 
+e pode usar várias vezes, sem precisar reescrever o código.
+
+- Para criar uma função simples (literal) usamos a palavra reservada 
+function, escolhemos um nome, conforme a sintaxe abaixo: 
+
+function nome(){
+      //código
+}
+
+- Para executar uma função devemos escrever o nome da função seguido de parêntese:
+nome()
+_______________________________________________________________________________________________________________________________
+
+Variáveis 
+
+- Tipos primitivos: string,number,Booleanas
+
+outros tipos: function,object

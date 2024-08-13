@@ -13,6 +13,6 @@ console.log("")
 
 valor = Number(input.question("Digite um numero: "))
 console.log("")
-for (let i = 1; i <= 20; i++) {
+for (let i = 1; i <= 101; i++) {
     console.log(`O número ${valor} + ${i} = ${ valor + i}`)
 }

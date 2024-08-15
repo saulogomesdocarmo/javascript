@@ -3,7 +3,7 @@
  * @author Saulo Gomes
  */
 
-const input = require("readline-sync")
+const input = require('readline-sync')
 let num1, num2, operador
 
 function somar(num1, num2) {

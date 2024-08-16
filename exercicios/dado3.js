@@ -3,13 +3,13 @@
  * @author Saulo Gomes
  */
 
-const input = require("readline-sync")
-const colors = require("colors")
+const input = require('readline-sync')
+const colors = require('colors')
 
 let face
 let confirma = "n"
 
-function jogardado() {
+function jogador() {
     console.clear()
     console.log("JOGO DO DADO".blue.bold)
     console.log("")
@@ -18,12 +18,12 @@ function jogardado() {
     console.log(`Face do dado: ${face}`)
 }
 
-jogardado()
+jogador()
 
 confirma = input.question("Deseja jogar novamente(s/n): ")
 
 if(confirma === "s"){
-    jogardado()
+    jogador()
 }else{
     console.log("O jogo acabou")
 }

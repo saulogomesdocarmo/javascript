@@ -1,5 +1,5 @@
 /**
- * Calculadora com laço de repetição do-while
+ * Calculadora com função de repetição
  * @author Saulo Gomes
  */
 

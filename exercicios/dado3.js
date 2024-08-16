@@ -4,7 +4,7 @@
  */
 
 const input = require('readline-sync')
-const colors = require('colors')
+const colors = require("colors")
 
 let face
 let confirma = "n"

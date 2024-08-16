@@ -5,19 +5,15 @@
 
 
 
-const input = require("readline-sync")
+const input = require('readline-sync')
+const color = require('colors')
 
-let jogador, computador
+let jogador,computador
+let repetir = "n"
 
-console.clear()
-console.log("  ____   ___   __  _    ___  ____    ____   ___   ____")
-console.log(" |     | /   \\ |  |/ ]  /  _]|    \\ |   \\ /   \\ |    \\ ")
-console.log(" |__   ||     ||  ' /   /  [_ |  _   ||  o )     ||  _  | ")
-console.log(" __|   ||  O  ||    \\  |    _]|  |  ||   _/|  O  ||  |  | ")
-console.log("/  |   ||     ||     \\ |   [_ |  |  ||  |  |     ||  |  |")
-console.log("\\  `  ||     ||  .   |  |     ||  |  ||  |  |     ||  |  |")
-console.log("\\___  |\\___ /  |__|\\_|  |_____||__|__||__|  \\___/ |__|__|")
-
+do {
+    console.log("JOGO DO JOKENPOW".blue.bold)
+console.log("")
 console.log("Escolha uma opção: ")
 console.log("")
 
@@ -43,7 +39,7 @@ switch (jogador) {
 }
 
 computador = Math.floor(Math.random() * 3 + 1)
-// console.log(`O computador escolheu: ${computador}`)
+
 
 switch (computador) {
     case 1:
@@ -88,4 +84,6 @@ if (jogador === 1 && computador === 1) {
     console.log("Jogador Perdeu")
 }
 
+repetir = input.question("Deseja jogar novamente(s/n)?: ")
 
+} while (repetir === "s");

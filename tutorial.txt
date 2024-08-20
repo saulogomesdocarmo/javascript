@@ -340,3 +340,9 @@ console.log("")
 
 - Polimorfismo 
 Atenção ! Para reescrever um método é necessário usar o "MESMO" nome do método original.
+
+_______________________________________________________________________________________________________________________________
+
+ATIVIDADE 4 : Atividade Individual
+
+Slides 62 a 67 - exceto slide 65(POO Exercicio 1 - carros)

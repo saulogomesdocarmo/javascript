@@ -80,11 +80,12 @@ cc1.exibirSaldo()
 cc1.sacar(4000)
 cc1.exibirSaldo()
 console.log("")
-cc1.pix(400,cc2)
+
 
 let cc2 = new Conta(2,"Leandro Ramos",10000)
 console.log(`Cliente: ${cc2.getTitular().blue.bold} | conta: ${cc2.getNumero()}`)
 cc2.exibirSaldo()
+cc2.pix(200,cc1)
 console.log("")
 
 let cc3 = new Conta(3,"Sirlene Sanches",5000)

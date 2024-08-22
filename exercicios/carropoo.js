@@ -53,36 +53,36 @@ class Aviao extends Carro {
         }
     }
     identificar() {
-        this.id = Math.floor(Math.random()* 100)
+        this.id = Math.floor(Math.random() * 100)
         console.log(`O numero de identificação do aviao é: 0000-${this.id}`)
 
     }
 }
 
 console.clear()
-// const carro01 = new Carro("Azul", "Fusca", true,)
-// carro01.mostrarModelo()
-// carro01.mostrarCor()
-// carro01.darpartida()
-// carro01.identificar()
+const carro01 = new Carro("Azul", "Fusca", true,)
+carro01.mostrarModelo()
+carro01.mostrarCor()
+carro01.darpartida()
+carro01.identificar()
 
-// console.log("")
+console.log("")
 
-// const carro02 = new Carro("Preto", "Corolla", false)
-// carro02.mostrarModelo()
-// carro02.mostrarCor()
-// carro02.darpartida()
-// carro02.identificar()
+const carro02 = new Carro("Preto", "Corolla", false)
+carro02.mostrarModelo()
+carro02.mostrarCor()
+carro02.darpartida()
+carro02.identificar()
 
-// console.log("")
+console.log("")
 
-// const carro03 = new Carro("Branca", "Volvo", true)
-// carro03.mostrarModelo()
-// carro03.mostrarCor()
-// carro03.darpartida()
-// carro03.identificar()
+const carro03 = new Carro("Branca", "Volvo", true)
+carro03.mostrarModelo()
+carro03.mostrarCor()
+carro03.darpartida()
+carro03.identificar()
 
-// console.log("")
+console.log("")
 
 const aviao01 = new Aviao("Cinza", "Boing 007")
 aviao01.mostrarmodeloAviao()
@@ -92,9 +92,10 @@ aviao01.identificar()
 
 console.log("")
 
-// const aviao02 = new Aviao("Branca - Vermelha", "Bi-Motor", false)
-// aviao02.mostrarmodeloAviao()
-// aviao02.mostrarcorAviao()
-// aviao01.darpartida()
+const aviao02 = new Aviao("Branca - Vermelha", "Bi-Motor", false)
+aviao02.mostrarmodeloAviao()
+aviao02.mostrarcorAviao()
+aviao02.darpartida()
+aviao02.identificar()
 
-// console.log("")
+console.log("")

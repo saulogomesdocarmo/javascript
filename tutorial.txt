@@ -345,4 +345,12 @@ ________________________________________________________________________________
 
 ATIVIDADE 4 : Atividade Individual
 
-Slides 62 a 67 - exceto slide 65(POO Exercicio 1 - carros)
+Slides 16 a 20 (POO Exercicio 1 - carros)
+
+_______________________________________________________________________________________________________________________________
+
+Encapsulamento 
+
+- reforço na segurança dos atributos (variáveis)
+
+Dica: get e set (acesso a variável encapsulada)

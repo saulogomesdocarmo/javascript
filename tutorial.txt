@@ -354,3 +354,11 @@ Encapsulamento
 - reforço na segurança dos atributos (variáveis)
 
 Dica: get e set (acesso a variável encapsulada)
+
+_____________________________________________________________________________________________________________________________
+
+Array (vetor)
+Na linguagem JS array é um objeto.
+
+Array Multidimensional (Matriz)
+É um array que contém outro(s) array(s)

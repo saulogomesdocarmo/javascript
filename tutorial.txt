@@ -362,3 +362,5 @@ Na linguagem JS array é um objeto.
 
 Array Multidimensional (Matriz)
 É um array que contém outro(s) array(s)
+
+_____________________________________________________________________________________________________________________________

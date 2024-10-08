@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**
+    Folha de estilo do carrosel de imagens
+    @author Saulo Gomes
+*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*efeito fade*/
+
+/*Efeito fade controlado pelo JS*/
+#slide.fadeOut {
+    opacity: 0.1; /*Transparencia 0 a 1*/
+}
+
+#slide{
+    transition: opacity 2;
+    opacity: 1;
+}

@@ -5,7 +5,7 @@
  */
 
 const funcionario1 = {}
-console.log(typeof(funcionario1))
+console.log(typeof (funcionario1))
 
 // Adicionar dados a estrutura (CRUD Creat)
 funcionario1.nome = "Jose"
@@ -35,3 +35,52 @@ const funcionario2 = {
 }
 
 console.log(funcionario2)
+
+const endereco1 = {
+    logradouro: "Bat Caverna",
+    cidade: "Gothan City",
+    estado: "New Jersey",
+
+}
+
+console.log(endereco1)
+
+const funcionario3 = {
+    nome: "Alfred Pennywort",
+    cargo: "Mordomo",
+    email: "alfred@gmail.com",
+    salario: 20000,
+    ...endereco1 //.. spread operador (união de duas estruturas)
+}
+
+console.log(funcionario3)
+
+const funcionario4 = {
+    nome: "Dick Grayson",
+    cargo: "Acrobata",
+    email: "robyn@gmail.com",
+    salario: 20000,
+    ...endereco1
+}
+
+console.log(funcionario4)
+
+const funcionario5 = {
+    nome: "Tony Stark",
+    cargo: "Engenheiro",
+    emial: "iroman@outlook.com",
+    salario: 375000,
+    armadura: {
+        versão: "Mark II",
+        ano: "2010",
+        reator: "Arc 01"
+    },
+    switUp: () => {
+        console.log("🤖")
+    }
+}
+
+console.log(funcionario5)
+console.log(funcionario5.cargo)
+console.log(funcionario5.armadura.versão)
+funcionario5.switUp()

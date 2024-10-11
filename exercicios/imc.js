@@ -3,8 +3,8 @@
  * @author
  */
 
-const colors = require("@colors/colors")
-const input = require("readline-sync")
+
+const input = require('readline-sync')
 
 
 // variaveis 
@@ -27,25 +27,25 @@ imc = peso / ((altura / 100) * (altura / 100))
 console.clear()
 console.log("")
 console.log("------------------------------------------------")
-console.log("Ficha do Aluno".italic.bold.blue)
+console.log("Ficha do Aluno")
 console.log(`Nome: ${nome}`)
 console.log(`Idade: ${idade} anos`)
 console.log(`Peso: ${peso}`)
 console.log(`Altura: ${altura}`)
-console.log(`IMC: ${imc}`)
+console.log(`IMC: ${imc.toFixed(2)}`)
 
 if (imc < 18) {
-    console.log("Abaixo do Peso".blue.bold)
+    console.log("Abaixo do Peso")
 } else if (imc < 25) {
-    console.log("Peso normal".green.bold)
+    console.log("Peso normal")
 } else if (imc < 30) {
-    console.log("Acima do Peso !".yellow.bold)
+    console.log("Acima do Peso !")
 } else if (imc < 35) {
-    console.log("Obesidade I".yellow.bold)
+    console.log("Obesidade I")
 } else if (imc < 40) {
-    console.log("Obesidade II (severa)".red.bold)
+    console.log("Obesidade II (severa)")
 } else {
-    console.log("Obesidade Grau III (mórbida)".red.bold)
+    console.log("Obesidade Grau III (mórbida)")
 }
 
 

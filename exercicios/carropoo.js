@@ -3,7 +3,7 @@
  * @author Saulo Gomes 
  */
 
-const colors = require("colors")
+const colors = require('colors')
 
 class Carro {
 
@@ -25,7 +25,7 @@ class Carro {
             console.log("O Carro Ligado")
 
         else {
-            console.log("OCarro Desligado")
+            console.log("O Carro Desligado")
         }
     }
     identificar() {
@@ -44,9 +44,9 @@ class Carro {
 }
 
 class Aviao extends Carro {
-    constructor(cor, modelo, aviao, ligar, velocidade) {
-        super(cor, modelo, ligar, velocidade)
-        this.aviao = aviao
+    constructor(cor, modelo, ligar, velocidade,envergadura) {
+        super(cor, modelo, ligar, velocidade,)
+        this.envergadura = envergadura
 
     }
     mostrarcorAviao() {
@@ -77,52 +77,37 @@ class Aviao extends Carro {
             console.log(`A velocidade do aviao é: ${this.velocidade}km/h - DECOLOU`.green.bold)
         }
     }
+    verenvergadura(){
+        console.log(`A envergadura é de: ${this.envergadura}m`)
+    }
     
   
 }
 
 console.clear()
-const carro01 = new Carro("Azul", "Fusca", false)
+const carro01 = new Carro("Azul", "Fusca", true)
 carro01.mostrarModelo()
 carro01.mostrarCor()
 carro01.darpartida()
 carro01.identificar()
 carro01.acelerar()
 
+console.log("")
+
+const carro02 = new Carro("Branco","Volvo",true)
+carro02.mostrarModelo()
+carro02.mostrarCor()
+carro02.darpartida()
+carro02.identificar()
+carro02.acelerar()
 
 console.log("")
 
-// const carro02 = new Carro("Preto", "Corolla", false)
-// carro02.mostrarModelo()
-// carro02.mostrarCor()
-// carro02.darpartida()
-// carro02.identificar()
-
-// console.log("")
-
-// const carro03 = new Carro("Branca", "Volvo", true)
-// carro03.mostrarModelo()
-// carro03.mostrarCor()
-// carro03.darpartida()
-// carro03.identificar()
-
-console.log("")
-
-const aviao01 = new Aviao("Azul", "Boing", true, 200)
+const aviao01 = new Aviao("Branco","Boing-002",true,true,80)
 aviao01.mostrarcorAviao()
 aviao01.mostrarmodeloAviao()
 aviao01.darpartida()
-aviao01.identificar()
 aviao01.acelerar()
+aviao01.verenvergadura()
 
-
-
-// console.log("")
-
-// const aviao02 = new Aviao("Branca - Vermelha", "Bi-Motor", false)
-// aviao02.mostrarmodeloAviao()
-// aviao02.mostrarcorAviao()
-// aviao02.darpartida()
-// aviao02.identificar()
-
-// console.log("")
+console.log("")
